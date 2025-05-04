@@ -20,8 +20,8 @@ Matrix create_matrix(int rows, int cols);
 /**
  * @brief 矩阵加法
  * @param a 矩阵a
- * @param b 矩阵b
- * @return a + b, 如果a和b的行数或列数不相等，会给出错误提示"Error: Matrix a and b must have the same rows and cols.\n"并返回一个空矩阵
+ * @param b 矩阵bn
+ * @return a + b，如果a和b的行数或列数不相等，会给出错误提示"Error: Matrix a and b must have the same rows and cols.\n"并返回一个空矩阵
 */
 Matrix add_matrix(Matrix a, Matrix b);
 
